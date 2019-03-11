@@ -141,7 +141,7 @@ public class LFUCacheTest {
             testCache.access(i);
         }
 
-        String expected = "Testing19";
+        String expected = "Testing10";
 
         //When
         String actual = testCache.insert(20, "Testing20");

@@ -78,14 +78,13 @@ public class LFUCache<K, V> {
 
         FrequencyNode() {
             this.value = 0;
-            this.items = new LinkedHashSet<>();
             this.previous = this;
             this.next = this;
         }
 
         FrequencyNode(Integer value, FrequencyNode previous, FrequencyNode next) {
             this.value = value;
-            this.items = new HashSet<>();
+            this.items = new LinkedHashSet<>();
             this.previous = previous;
             this.next = next;
             previous.next = this;
