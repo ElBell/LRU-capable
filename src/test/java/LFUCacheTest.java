@@ -3,6 +3,8 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.NoSuchElementException;
+
 
 public class LFUCacheTest {
     private LFUCache<Integer, String> testCache;
@@ -38,6 +40,19 @@ public class LFUCacheTest {
         Assert.assertEquals(expected, actual);
     }
 
+    @Test(expected = NoSuchElementException.class)
+    public void accessNoKey() {
+        // Given
+        testCache.insert(1, "Testing1");
+        testCache.insert(2, "Testing2");
+
+        //When
+        testCache.access(0);
+
+        //Then
+        //Exception is thrown
+    }
+
     @Test(expected = IllegalArgumentException.class)
     public void insertError() {
         // Given
@@ -47,7 +62,7 @@ public class LFUCacheTest {
         testCache.insert(1, "Testing2");
 
         //Then
-        //Error is thrown
+        //Exception is thrown
     }
 
     @Test
@@ -110,6 +125,26 @@ public class LFUCacheTest {
 
         //When
         String actual = testCache.insert(11, "Testing11");
+
+        //Then
+        Assert.assertEquals(expected, actual);
+    }
+
+    @Test
+    public void insertMoreThanCapacityWithAccess3() {
+        // Given
+        testCache.insert(0, "Testing");
+        testCache.access(0);
+        for (int i = 1; i < 20; i++) {
+            testCache.insert(i, "Testing" + i);
+            testCache.access(i);
+            testCache.access(i);
+        }
+
+        String expected = "Testing19";
+
+        //When
+        String actual = testCache.insert(20, "Testing20");
 
         //Then
         Assert.assertEquals(expected, actual);

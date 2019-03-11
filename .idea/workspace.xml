@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3b75667-63dd-404d-b8a0-01643605ebcb" name="Default Changelist" comment="" />
+    <list default="true" id="e3b75667-63dd-404d-b8a0-01643605ebcb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LFUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LFUCacheTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LFUCacheTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,22 +14,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LRU_capable$LFUCacheTest.ic" NAME="LFUCacheTest Coverage Results" MODIFIED="1552262621545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="15" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LFUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1302">
-              <caret line="79" column="73" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+            <state relative-caret-position="115">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/LFUCacheTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+            <state relative-caret-position="-252">
+              <caret line="143" column="36" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
@@ -49,13 +60,16 @@
       <find>capac</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/LFU.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/LFUCache.java" />
         <option value="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LFUCache.java" />
       </list>
     </option>
   </component>
@@ -71,6 +85,7 @@
     <option name="width" value="1280" />
     <option name="height" value="734" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -125,7 +140,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552262456102" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552264203328" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
@@ -156,33 +171,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LFUCacheTest.insertMoreThanCapacityWithAccess2">
-    <configuration name="LFUCacheTest.getLFUItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in LRU-capable">
+    <configuration name="All in LRU-capable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LRU-capable" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
-      <option name="METHOD_NAME" value="getLFUItem" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LFUCacheTest.insertLessThanCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LFUCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LRU-capable" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
-      <option name="METHOD_NAME" value="insertLessThanCapacity" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LFUCacheTest.insertMoreThanCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LRU-capable" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
-      <option name="METHOD_NAME" value="insertMoreThanCapacity" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -202,6 +204,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
       <option name="METHOD_NAME" value="insertMoreThanCapacityWithAccess2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LFUCacheTest.insertMoreThanCapacityWithAccess3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LRU-capable" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
+      <option name="METHOD_NAME" value="insertMoreThanCapacityWithAccess3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -271,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in LRU-capable" />
+        <item itemvalue="JUnit.LFUCacheTest.insertMoreThanCapacityWithAccess3" />
+        <item itemvalue="JUnit.LFUCacheTest" />
         <item itemvalue="JUnit.LFUCacheTest.insertMoreThanCapacityWithAccess2" />
         <item itemvalue="JUnit.LFUCacheTest.insertMoreThanCapacityWithAccess" />
-        <item itemvalue="JUnit.LFUCacheTest.insertMoreThanCapacity" />
-        <item itemvalue="JUnit.LFUCacheTest.insertLessThanCapacity" />
-        <item itemvalue="JUnit.LFUCacheTest.getLFUItem" />
       </list>
     </recent_temporary>
   </component>
@@ -289,29 +301,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552182795051</updated>
-      <workItem from="1552182796434" duration="11182000" />
+      <workItem from="1552182796434" duration="12752000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LFUCacheTest_access2 - 2019.03.10 at 19h 50m 13s.xml">
-      <configuration name="LFUCacheTest.access2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LFUCacheTest_access3 - 2019.03.10 at 19h 50m 32s.xml">
-      <configuration name="LFUCacheTest.access3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LFUCacheTest_insertError - 2019.03.10 at 19h 51m 46s.xml">
-      <configuration name="LFUCacheTest.insertError" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LFUCacheTest_getLFUItem - 2019.03.10 at 19h 54m 30s.xml">
-      <configuration name="LFUCacheTest.getLFUItem" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LFUCacheTest_insertLessThanCapacity - 2019.03.10 at 19h 57m 25s.xml">
-      <configuration name="LFUCacheTest.insertLessThanCapacity" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LFUCacheTest_insertLessThanCapacity - 2019.03.10 at 19h 57m 43s.xml">
-      <configuration name="LFUCacheTest.insertLessThanCapacity" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LFUCacheTest_insertMoreThanCapacity - 2019.03.10 at 19h 58m 24s.xml">
       <configuration name="LFUCacheTest.insertMoreThanCapacity" configurationId="JUnit" />
     </history-entry>
@@ -324,9 +318,27 @@
     <history-entry file="LFUCacheTest_insertMoreThanCapacityWithAccess - 2019.03.10 at 20h 00m 12s.xml">
       <configuration name="LFUCacheTest.insertMoreThanCapacityWithAccess" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LFUCacheTest_insertMoreThanCapacityWithAccess2 - 2019.03.10 at 20h 00m 51s.xml">
+      <configuration name="LFUCacheTest.insertMoreThanCapacityWithAccess2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LFUCacheTest - 2019.03.10 at 20h 01m 52s.xml">
+      <configuration name="LFUCacheTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LFUCacheTest - 2019.03.10 at 20h 03m 44s.xml">
+      <configuration name="LFUCacheTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LFUCacheTest_insertMoreThanCapacityWithAccess3 - 2019.03.10 at 20h 17m 03s.xml">
+      <configuration name="LFUCacheTest.insertMoreThanCapacityWithAccess3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_LRU-capable - 2019.03.10 at 20h 28m 50s.xml">
+      <configuration name="All in LRU-capable" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_LRU-capable - 2019.03.10 at 20h 29m 11s.xml">
+      <configuration name="All in LRU-capable" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11182000" />
+    <option name="totallyTimeSpent" value="12752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -360,6 +372,7 @@
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.024232633" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -376,22 +389,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LFUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="79" column="73" selection-start-line="79" selection-start-column="73" selection-end-line="79" selection-end-column="73" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="299">
+            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LFUCacheTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+        <state relative-caret-position="-252">
+          <caret line="143" column="36" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LFUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
