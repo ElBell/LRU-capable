@@ -66,9 +66,7 @@ public class LFUCache<K, V> {
     }
 
     public V getLFUItem() {
-        if (byKey.size() == 0) {
-            throw new NullPointerException("The set is empty");
-        }
+        if (byKey.size() == 0) { throw new NoSuchElementException("The set is empty"); }
         return byKey.get(frequencyHead.next.items.iterator().next()).data;
     }
 

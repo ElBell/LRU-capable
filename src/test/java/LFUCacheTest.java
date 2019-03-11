@@ -167,4 +167,16 @@ public class LFUCacheTest {
         Assert.assertEquals(expected, actual);
 
     }
+
+    @Test(expected = NoSuchElementException.class)
+    public void getLFUItemNoSet() {
+        //Given
+
+        //When
+        testCache.getLFUItem();
+
+        //Then
+        //Exception is thrown
+
+    }
 }

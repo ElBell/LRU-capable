@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b75667-63dd-404d-b8a0-01643605ebcb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LFUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LFUCacheTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LFUCacheTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,20 +20,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LFUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="349">
+              <caret line="68" column="87" selection-start-line="68" selection-start-column="87" selection-end-line="68" selection-end-column="87" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LFUCacheTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-252">
-              <caret line="143" column="36" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
+            <state relative-caret-position="410">
+              <caret line="170" column="49" selection-start-line="170" selection-start-column="49" selection-end-line="170" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#220#221#0" expanded="true" />
@@ -58,6 +56,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>capac</find>
+      <find>null</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,8 +67,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/LFU.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/LFUCache.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" />
       </list>
     </option>
   </component>
@@ -140,7 +139,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552264203328" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552264914203" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
@@ -171,7 +170,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in LRU-capable">
+  <component name="RunManager" selected="JUnit.LFUCacheTest.getLFUItemNoSet">
     <configuration name="All in LRU-capable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LRU-capable" />
       <option name="PACKAGE_NAME" value="" />
@@ -189,11 +188,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LFUCacheTest.insertMoreThanCapacityWithAccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LFUCacheTest.getLFUItemNoSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LRU-capable" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
-      <option name="METHOD_NAME" value="insertMoreThanCapacityWithAccess" />
+      <option name="METHOD_NAME" value="getLFUItemNoSet" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -283,11 +282,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LFUCacheTest.getLFUItemNoSet" />
         <item itemvalue="JUnit.All in LRU-capable" />
         <item itemvalue="JUnit.LFUCacheTest.insertMoreThanCapacityWithAccess3" />
         <item itemvalue="JUnit.LFUCacheTest" />
         <item itemvalue="JUnit.LFUCacheTest.insertMoreThanCapacityWithAccess2" />
-        <item itemvalue="JUnit.LFUCacheTest.insertMoreThanCapacityWithAccess" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +300,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552182795051</updated>
-      <workItem from="1552182796434" duration="12752000" />
+      <workItem from="1552182796434" duration="13127000" />
     </task>
     <servers />
   </component>
@@ -338,7 +337,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12752000" />
+    <option name="totallyTimeSpent" value="13127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -399,22 +398,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LFUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="68" column="87" selection-start-line="68" selection-start-column="87" selection-end-line="68" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LFUCacheTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="143" column="36" selection-start-line="143" selection-start-column="36" selection-end-line="143" selection-end-column="36" />
+        <state relative-caret-position="410">
+          <caret line="170" column="49" selection-start-line="170" selection-start-column="49" selection-end-line="170" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#220#221#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LFUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
         </state>
       </provider>
     </entry>
