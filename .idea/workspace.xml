@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b75667-63dd-404d-b8a0-01643605ebcb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/FrequencyNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LFUItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FrequencyNodeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/LFUItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LFUCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LFUCache$FrequencyNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LFUCache$LFUItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LFUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LFUCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LFUCacheTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LFUCacheTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,20 +31,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LFUCache.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/LFUCacheTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+            <state relative-caret-position="-1957">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LFUCacheTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FrequencyNodeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="201" column="9" selection-start-line="201" selection-start-column="9" selection-end-line="201" selection-end-column="9" />
+            <state relative-caret-position="-965">
+              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -57,6 +70,7 @@
       <find>capac</find>
       <find>null</find>
       <find>get</find>
+      <find>LFUI</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -67,8 +81,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/LFU.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/FrequencyNode/FrequencyNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LFUItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/LFUCache.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FrequencyNode.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LFUItemTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ObjectTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FrequencyNodeTests.java" />
       </list>
     </option>
   </component>
@@ -90,8 +110,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,7 +159,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552266315799" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552330691718" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
@@ -154,8 +174,14 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="FrequencyNode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -170,7 +196,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LFUCacheTest">
+  <component name="RunManager" selected="JUnit.All in LRU-capable">
     <configuration name="All in LRU-capable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LRU-capable" />
       <option name="PACKAGE_NAME" value="" />
@@ -179,40 +205,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LFUCacheTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LFUCacheTest.allItemsSizedOutNodeDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LRU-capable" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LFUCacheTest.getLFUItemNoSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LRU-capable" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
-      <option name="METHOD_NAME" value="getLFUItemNoSet" />
+      <option name="METHOD_NAME" value="allItemsSizedOutNodeDeleted" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LFUCacheTest.insertMoreThanCapacityWithAccess3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LFUCacheTest.freqSizeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LRU-capable" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
-      <option name="METHOD_NAME" value="insertMoreThanCapacityWithAccess3" />
+      <option name="METHOD_NAME" value="freqSizeOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LFUCacheTest.objects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LFUCacheTest.freqSizedOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LRU-capable" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
-      <option name="METHOD_NAME" value="objects" />
+      <option name="METHOD_NAME" value="freqSizedOut" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LFUItemTest.createLFUItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LRU-capable" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LFUItemTest" />
+      <option name="METHOD_NAME" value="createLFUItem" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -282,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LFUCacheTest" />
-        <item itemvalue="JUnit.LFUCacheTest.objects" />
         <item itemvalue="JUnit.All in LRU-capable" />
-        <item itemvalue="JUnit.LFUCacheTest.getLFUItemNoSet" />
-        <item itemvalue="JUnit.LFUCacheTest.insertMoreThanCapacityWithAccess3" />
+        <item itemvalue="JUnit.LFUItemTest.createLFUItem" />
+        <item itemvalue="JUnit.LFUCacheTest.allItemsSizedOutNodeDeleted" />
+        <item itemvalue="JUnit.LFUCacheTest.freqSizedOut" />
+        <item itemvalue="JUnit.LFUCacheTest.freqSizeOne" />
       </list>
     </recent_temporary>
   </component>
@@ -301,50 +328,50 @@
       <option name="presentableId" value="Default" />
       <updated>1552182795051</updated>
       <workItem from="1552182796434" duration="13272000" />
-      <workItem from="1552265341120" duration="895000" />
+      <workItem from="1552265341120" duration="1515000" />
+      <workItem from="1552327215167" duration="3441000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LFUCacheTest_insertMoreThanCapacityWithAccess3 - 2019.03.10 at 20h 17m 03s.xml">
-      <configuration name="LFUCacheTest.insertMoreThanCapacityWithAccess3" configurationId="JUnit" />
+    <history-entry file="LFUCacheTest_getFrequencySizeNothingAdded - 2019.03.11 at 14h 37m 39s.xml">
+      <configuration name="LFUCacheTest.getFrequencySizeNothingAdded" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_LRU-capable - 2019.03.10 at 20h 28m 50s.xml">
+    <history-entry file="LFUCacheTest_getFrequencySizeNothingAdded - 2019.03.11 at 14h 38m 02s.xml">
+      <configuration name="LFUCacheTest.getFrequencySizeNothingAdded" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LFUCacheTest_freqSizeOne - 2019.03.11 at 14h 39m 38s.xml">
+      <configuration name="LFUCacheTest.freqSizeOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LFUCacheTest_freqSizeOne - 2019.03.11 at 14h 40m 19s.xml">
+      <configuration name="LFUCacheTest.freqSizeOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LFUCacheTest_freqSizedOut - 2019.03.11 at 14h 40m 50s.xml">
+      <configuration name="LFUCacheTest.freqSizedOut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LFUCacheTest_freqSizedOut - 2019.03.11 at 14h 47m 28s.xml">
+      <configuration name="LFUCacheTest.freqSizedOut" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LFUCacheTest_allItemsSizedOutNodeDeleted - 2019.03.11 at 14h 48m 14s.xml">
+      <configuration name="LFUCacheTest.allItemsSizedOutNodeDeleted" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_LRU-capable - 2019.03.11 at 14h 53m 19s.xml">
       <configuration name="All in LRU-capable" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_LRU-capable - 2019.03.10 at 20h 29m 11s.xml">
+    <history-entry file="LFUItemTest_createLFUItem - 2019.03.11 at 14h 56m 37s.xml">
+      <configuration name="LFUItemTest.createLFUItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_LRU-capable - 2019.03.11 at 14h 58m 10s.xml">
       <configuration name="All in LRU-capable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LFUCacheTest_getLFUItemNoSet - 2019.03.10 at 20h 42m 07s.xml">
-      <configuration name="LFUCacheTest.getLFUItemNoSet" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_LRU-capable - 2019.03.10 at 20h 43m 35s.xml">
-      <configuration name="All in LRU-capable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_LRU-capable - 2019.03.10 at 20h 54m 16s.xml">
-      <configuration name="All in LRU-capable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_LRU-capable - 2019.03.10 at 20h 54m 40s.xml">
-      <configuration name="All in LRU-capable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_LRU-capable - 2019.03.10 at 20h 56m 36s.xml">
-      <configuration name="All in LRU-capable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LFUCacheTest_objects - 2019.03.10 at 21h 04m 14s.xml">
-      <configuration name="LFUCacheTest.objects" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LFUCacheTest_objects - 2019.03.10 at 21h 04m 25s.xml">
-      <configuration name="LFUCacheTest.objects" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14167000" />
+    <option name="totallyTimeSpent" value="18228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -377,6 +404,40 @@
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991013" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991013" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="PlantUML" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.024232633" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -399,17 +460,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FrequencyNode/FrequencyNode.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FrequencyNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LFUItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LFUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="79" column="27" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+        <state relative-caret-position="1135">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <element signature="e#2292#2293#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LFUItemTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ObjectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FrequencyNodeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-965">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LFUCacheTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="201" column="9" selection-start-line="201" selection-start-column="9" selection-end-line="201" selection-end-column="9" />
+        <state relative-caret-position="-1957">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
