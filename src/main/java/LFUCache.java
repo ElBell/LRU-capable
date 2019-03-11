@@ -5,7 +5,6 @@ public class LFUCache<K, V> {
     private HashMap<K, LFUItem> byKey;//cache K and V
     private FrequencyNode frequencyHead;//K and counters
     private int capacity;
-    //private int min = -1;
 
     public LFUCache(int capacity) {
         this.capacity = capacity;
