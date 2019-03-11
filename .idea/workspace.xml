@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3b75667-63dd-404d-b8a0-01643605ebcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/FrequencyNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LFUItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FrequencyNodeTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LFUItemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ObjectTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FrequencyNode.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LFUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LFUCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LFUCache$FrequencyNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LFUCache$LFUItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LFUItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FrequencyNodeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FrequencyNodeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LFUItemTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/FrequencyNode.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/LFUCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LFUCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/LFUCacheTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LFUCacheTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LFUItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/FrequencyNodeTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/FrequencyNodeTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/LFUItemTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,23 +30,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LFUCacheTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LFUCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1957">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="48" />
+            <state relative-caret-position="407">
+              <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2255#2256#0" expanded="true" />
+                <element signature="e#2291#2292#0" expanded="true" />
+                <element signature="e#2337#2338#0" expanded="true" />
+                <element signature="e#2373#2374#0" expanded="true" />
+                <element signature="e#2344#2345#0" expanded="true" />
+                <element signature="e#2380#2381#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FrequencyNodeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-965">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="357">
+              <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +87,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/FrequencyNode/FrequencyNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/LFUItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LFUCache.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FrequencyNode.java" />
         <option value="$PROJECT_DIR$/src/test/java/LFUItemTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ObjectTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LFUCacheTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FrequencyNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LFUCache.java" />
         <option value="$PROJECT_DIR$/src/test/java/FrequencyNodeTests.java" />
       </list>
     </option>
@@ -99,7 +103,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="734" />
@@ -111,7 +115,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,12 +157,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552330691718" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552333974662" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
@@ -205,31 +209,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LFUCacheTest.allItemsSizedOutNodeDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FrequencyNodeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LRU-capable" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
+      <option name="MAIN_CLASS_NAME" value="FrequencyNodeTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FrequencyNodeTests.allItemsSizedOutNodeDeleted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LRU-capable" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FrequencyNodeTests" />
       <option name="METHOD_NAME" value="allItemsSizedOutNodeDeleted" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LFUCacheTest.freqSizeOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FrequencyNodeTests.freqSizeNothing" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LRU-capable" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
-      <option name="METHOD_NAME" value="freqSizeOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LFUCacheTest.freqSizedOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LRU-capable" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LFUCacheTest" />
-      <option name="METHOD_NAME" value="freqSizedOut" />
+      <option name="MAIN_CLASS_NAME" value="FrequencyNodeTests" />
+      <option name="METHOD_NAME" value="freqSizeNothing" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -310,10 +313,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in LRU-capable" />
+        <item itemvalue="JUnit.FrequencyNodeTests.allItemsSizedOutNodeDeleted" />
+        <item itemvalue="JUnit.FrequencyNodeTests" />
+        <item itemvalue="JUnit.FrequencyNodeTests.freqSizeNothing" />
         <item itemvalue="JUnit.LFUItemTest.createLFUItem" />
-        <item itemvalue="JUnit.LFUCacheTest.allItemsSizedOutNodeDeleted" />
-        <item itemvalue="JUnit.LFUCacheTest.freqSizedOut" />
-        <item itemvalue="JUnit.LFUCacheTest.freqSizeOne" />
       </list>
     </recent_temporary>
   </component>
@@ -329,23 +332,13 @@
       <updated>1552182795051</updated>
       <workItem from="1552182796434" duration="13272000" />
       <workItem from="1552265341120" duration="1515000" />
-      <workItem from="1552327215167" duration="3441000" />
+      <workItem from="1552327215167" duration="3534000" />
+      <workItem from="1552331384493" duration="130000" />
+      <workItem from="1552333079852" duration="890000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LFUCacheTest_getFrequencySizeNothingAdded - 2019.03.11 at 14h 37m 39s.xml">
-      <configuration name="LFUCacheTest.getFrequencySizeNothingAdded" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LFUCacheTest_getFrequencySizeNothingAdded - 2019.03.11 at 14h 38m 02s.xml">
-      <configuration name="LFUCacheTest.getFrequencySizeNothingAdded" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LFUCacheTest_freqSizeOne - 2019.03.11 at 14h 39m 38s.xml">
-      <configuration name="LFUCacheTest.freqSizeOne" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LFUCacheTest_freqSizeOne - 2019.03.11 at 14h 40m 19s.xml">
-      <configuration name="LFUCacheTest.freqSizeOne" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LFUCacheTest_freqSizedOut - 2019.03.11 at 14h 40m 50s.xml">
       <configuration name="LFUCacheTest.freqSizedOut" configurationId="JUnit" />
     </history-entry>
@@ -364,14 +357,27 @@
     <history-entry file="All_in_LRU-capable - 2019.03.11 at 14h 58m 10s.xml">
       <configuration name="All in LRU-capable" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FrequencyNodeTests - 2019.03.11 at 15h 50m 26s.xml">
+      <configuration name="FrequencyNodeTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FrequencyNodeTests_allItemsSizedOutNodeDeleted - 2019.03.11 at 15h 51m 12s.xml">
+      <configuration name="FrequencyNodeTests.allItemsSizedOutNodeDeleted" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FrequencyNodeTests_allItemsSizedOutNodeDeleted - 2019.03.11 at 15h 51m 42s.xml">
+      <configuration name="FrequencyNodeTests.allItemsSizedOutNodeDeleted" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FrequencyNodeTests_allItemsSizedOutNodeDeleted - 2019.03.11 at 15h 52m 50s.xml">
+      <configuration name="FrequencyNodeTests.allItemsSizedOutNodeDeleted" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18228000" />
+    <option name="totallyTimeSpent" value="19341000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="734" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -380,7 +386,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991013" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991013" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32850942" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -388,7 +394,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3299566" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -405,7 +411,7 @@
       <window_info anchor="right" id="Theme Preview" order="11" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2657512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -414,7 +420,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991013" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32991013" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32991013" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +428,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3299566" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -460,25 +466,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FrequencyNode/FrequencyNode.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FrequencyNode/FrequencyNode.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/FrequencyNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="3" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#839#840#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1111#1112#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1222#1223#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LFUItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state>
+          <caret selection-end-line="7" selection-end-column="5" />
           <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#371#372#0" expanded="true" />
             <element signature="e#422#423#0" expanded="true" />
@@ -487,21 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LFUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1135">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
-          <folding>
-            <element signature="e#2292#2293#0" expanded="true" />
-            <element signature="e#2327#2328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LFUItemTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="321">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -510,18 +519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ObjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
+        <state relative-caret-position="342">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FrequencyNodeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-965">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -530,8 +529,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LFUCacheTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1957">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="48" />
+        <state relative-caret-position="379">
+          <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LFUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="77" column="33" selection-start-line="77" selection-start-column="33" selection-end-line="77" selection-end-column="33" />
+          <folding>
+            <element signature="e#2255#2256#0" expanded="true" />
+            <element signature="e#2291#2292#0" expanded="true" />
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2373#2374#0" expanded="true" />
+            <element signature="e#2344#2345#0" expanded="true" />
+            <element signature="e#2380#2381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FrequencyNodeTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

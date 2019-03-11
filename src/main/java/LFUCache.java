@@ -3,45 +3,45 @@ import java.util.*;
 
 class LFUCache<K, V> {
     private HashMap<K, LFUItem> byKey;
-    private FrequencyNode<K> frequencyHead;
+    private FrequencyNode frequencyHead;
     private int capacity;
 
     public LFUCache(int capacity) {
         this.capacity = capacity;
         byKey = new HashMap<>();
-        frequencyHead = new FrequencyNode<>();
+        frequencyHead = new FrequencyNode();
     }
 
-    private void deleteNode(FrequencyNode<K> frequencyNode) {
-        frequencyNode.getPrevious().setNext(frequencyNode.getNext());
-        frequencyNode.getNext().setPrevious(frequencyNode.getPrevious());
+    private void deleteNode(FrequencyNode frequencyNode) {
+        frequencyNode.previous.next = frequencyNode.next;
+        frequencyNode.next.previous = frequencyNode.previous;
     }
 
     public V access(K key) {
-        LFUItem<V> temp = byKey.get(key);
+        LFUItem temp = byKey.get(key);
         if (temp == null) { throw new NoSuchElementException("No such key"); }
-        FrequencyNode<K> freq = temp.getParent();
-        FrequencyNode<K> nextFreq = freq.getNext();
+        FrequencyNode freq = temp.parent;
+        FrequencyNode nextFreq = freq.next;
 
-        if (nextFreq == frequencyHead || nextFreq.getValue() != freq.getValue() + 1) {
-            nextFreq = new FrequencyNode<K>(freq.getValue() + 1, freq, nextFreq);
+        if (nextFreq == frequencyHead || nextFreq.value != freq.value + 1) {
+            nextFreq = new FrequencyNode(freq.value + 1, freq, nextFreq);
         }
-        nextFreq.getItems().add(key);
-        temp.setParent(nextFreq);
+        nextFreq.items.add(key);
+        temp.parent = nextFreq;
 
-        freq.getItems().remove(key);
-        if (freq.getItems().size() == 0) { deleteNode(freq); }
-        return temp.getData();
+        freq.items.remove(key);
+        if (freq.items.size() == 0) { deleteNode(freq); }
+        return temp.data;
     }
 
     public V insert(K key, V value) {
         if (byKey.containsKey(key)) { throw new IllegalArgumentException("The value is already in the list."); }
         V removed = sizeCheck();
-        FrequencyNode<K> freq = frequencyHead.getNext();
-        if (freq.getValue() != 1) {
-            freq = new FrequencyNode<>(1, frequencyHead, freq);
+        FrequencyNode freq = frequencyHead.next;
+        if (freq.value != 1) {
+            freq = new FrequencyNode(1, frequencyHead, freq);
         }
-        freq.getItems().add(key);
+        freq.items.add(key);
         byKey.put(key, new LFUItem(value, freq));
         return removed;
     }
@@ -54,12 +54,12 @@ class LFUCache<K, V> {
     }
 
     private V removeLFU() {
-        FrequencyNode<K> freq = frequencyHead.getNext();
-        K toBeRemoved = freq.getItems().iterator().next();
-        V value = (V) byKey.get(toBeRemoved).getData();
+        FrequencyNode freq = frequencyHead.next;
+        K toBeRemoved = freq.items.iterator().next();
+        V value = byKey.get(toBeRemoved).data;
         byKey.remove(toBeRemoved);
-        freq.getItems().remove(toBeRemoved);
-        if (freq.getItems().size() == 0) {
+        freq.items.remove(toBeRemoved);
+        if (freq.items.size() == 0) {
             deleteNode(freq);
         }
         return value;
@@ -67,11 +67,51 @@ class LFUCache<K, V> {
 
     public V getLFUItem() {
         if (byKey.size() == 0) { throw new NoSuchElementException("The set is empty"); }
-        return (V) byKey.get(frequencyHead.getNext().getItems().iterator().next()).getData();
+        return byKey.get(frequencyHead.next.items.iterator().next()).data;
     }
 
     public FrequencyNode getHead() {
         return frequencyHead;
+    }
+
+    public FrequencyNode getFirstNode() {
+        return frequencyHead.next;
+    }
+
+    public int size(FrequencyNode frequencyNode) {
+        return  frequencyNode.items.size();
+    }
+
+    private class FrequencyNode {
+        private Integer value;
+        private Set<K> items;
+        private FrequencyNode previous;
+        private FrequencyNode next;
+
+        FrequencyNode() {
+            value = 0;
+            previous = this;
+            next = this;
+        }
+
+        public FrequencyNode(Integer value, FrequencyNode previous, FrequencyNode next) {
+            this.value = value;
+            this.items = new LinkedHashSet<>();
+            this.previous = previous;
+            this.next = next;
+            previous.next = this;
+            next.previous = this;
+        }
+    }
+
+    private class LFUItem {
+        private V data;
+        private FrequencyNode parent;
+
+        LFUItem(V data, FrequencyNode parent) {
+            this.data = data;
+            this.parent = parent;
+        }
     }
 }
 

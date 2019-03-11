@@ -14,8 +14,7 @@ public class FrequencyNodeTests {
         //Given
 
         //When
-        FrequencyNode frequencyNode = testCache.getHead();
-        frequencyNode.size();
+        int size = testCache.size(testCache.getHead());
         //Then
     }
 
@@ -27,8 +26,7 @@ public class FrequencyNodeTests {
         int expected = 2;
 
         //When
-        FrequencyNode frequencyNode = testCache.getHead().getNext();
-        int actual = frequencyNode.size();
+        int actual = testCache.size(testCache.getFirstNode());
         //Then
         Assert.assertEquals(expected, actual);
     }
@@ -42,23 +40,25 @@ public class FrequencyNodeTests {
         int expected = 1;
 
         //When
-        FrequencyNode frequencyNode = testCache.getHead().getNext();
-        int actual = frequencyNode.size();
+        int actual = testCache.size(testCache.getFirstNode());
         //Then
         Assert.assertEquals(expected, actual);
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test
     public void allItemsSizedOutNodeDeleted() {
         //Given
         testCache.insert(1, "Testing1");
         testCache.insert(2, "Testing2");
+        Object firstNode = testCache.getFirstNode();
         testCache.access(1);
         testCache.access(2);
+        Object secondNode = testCache.getFirstNode();
 
         //When
-        FrequencyNode frequencyNode = testCache.getHead();
-        frequencyNode.size();
+        Assert.assertNotEquals(firstNode, secondNode);
         //Then
+
+
     }
 }
